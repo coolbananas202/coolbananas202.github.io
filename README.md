@@ -12,7 +12,7 @@
 </head>
 <body>
     <iframe id: "theframe"; src="https://example.com"></iframe>
-    <script>
+    <script> 
         window.onload = function() {
             const urlParams = new URLSearchParams(window.location.search)
             const url = urlParams.get('url')
