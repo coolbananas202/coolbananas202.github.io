@@ -13,10 +13,12 @@
 <body>
     <iframe id: "theframe"; src="https://example.com"></iframe>
     <script>
-        const urlParams = new URLSearchParams(window.location.search)
-        const url = urlParams.get('url')
-        const iframe = document.getElementById('theframe');
-        iframe.src = url 
+        window.onload = function() {
+            const urlParams = new URLSearchParams(window.location.search)
+            const url = urlParams.get('url')
+            const iframe = document.getElementById('theframe');
+            iframe.src = url 
+        }
     </script>
 </body>
 </html>
