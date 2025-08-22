@@ -6,7 +6,11 @@
     <title>My GitHub Pages Site</title>
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This is my first GitHub Pages site!</p>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const url = urlParams.get('url');   
+    
+        console.log(`url: ${url}`);
+    </script>
 </body>
 </html>
