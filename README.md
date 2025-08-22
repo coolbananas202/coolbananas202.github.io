@@ -16,6 +16,10 @@
         window.onload = function() {
             const urlParams = new URLSearchParams(window.location.search)
             const url = urlParams.get('url')
+            if (url){
+                const iframe = document.getElementById('theframe');
+                iframe.src = url
+            }
         }
     </script>
 </body>
