@@ -11,10 +11,11 @@
     </style>
 </head>
 <body>
-    <iframe src="https://example.com"></iframe>
+    <iframe id: "theframe"; src="https://example.com"></iframe>
     <script>
         const urlParams = new URLSearchParams(window.location.search)
         const url = urlParams.get('url')
+        
     </script>
 </body>
 </html>
