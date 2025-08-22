@@ -11,7 +11,7 @@
     </style>
 </head>
 <body>
-    <iframe id: "theframe"; src="https://example.com">
+    <iframe id: "theframe"; src="https://example.com"></iframe>
     <script> 
         window.onload = function() {
             const urlParams = new URLSearchParams(window.location.search)
